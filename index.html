@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="MemeGenerator.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>MEME GENERATOR!</h1>
+    <form id = "memeform">
+        <p>
+            <label for = "toptext">Enter top text:
+                <input type = "text" id = "toptext">
+            </label>
+        </p>
+        <p>
+            <label for = "bottomtext">Enter bottom text:
+                <input type = "text" id = "bottomtext">
+            </label>
+        </p>
+        <p>
+            <label for = "imgurl">Enter image url:
+                <input type = "text" id = "imgurl" required>
+            </label>
+        </p>
+        <p>
+            <label for = "textcolor">Select text color:
+                <input type = "color" id = "textcolor">
+            </label>
+        </p>
+        <p>
+            <label for = "textsize">Select text size:
+                <input type = "range" id = "textsize">
+            </label>
+        </p>
+        <p>
+            <input type = "submit" value = "Generate Meme">
+        </p>
+    </form>
+    <div id = "centerdiv">
+    <div id = "memecontainer">  
+    </div>
+    </div>
+    <script src="MemeGenerator.js"></script>
+</body>
+</html>

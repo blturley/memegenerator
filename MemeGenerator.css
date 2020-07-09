@@ -1,0 +1,54 @@
+body {
+	height: 125vh;
+	position: relative;
+	background-image: linear-gradient(rgb(146, 214, 235), rgb(121, 64, 177, 0.5)),
+		url(https://i.pinimg.com/originals/6a/e3/82/6ae38278f7f8da943354c33578494f33.jpg);
+	background-size: 65rem;
+}
+
+body * {
+	text-align: center;
+}
+h1 {
+	word-spacing: 20px;
+	color: rgb(235, 231, 48);
+	background-color: rgba(68, 192, 30, 0.4);
+	font-family: Gloria Hallelujah, cursive;
+	text-decoration: underline overline wavy rebeccapurple;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px seagreen;
+}
+
+#centerdiv {
+	display: flex;
+	justify-content: center;
+}
+
+#memecontainer {
+	position: absolute;
+	display: flex;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	justify-content: center;
+}
+
+.toptext {
+	display: block;
+	position: absolute;
+	top: 0;
+	margin-top: 0.3em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bottomtext {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0.3em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.memeimg {
+	display: flex;
+	position: absolute;
+}
