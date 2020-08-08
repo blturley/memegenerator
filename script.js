@@ -49,7 +49,7 @@ form.addEventListener('submit', function(e) {
 	memecontainer.append(bottomwords);
 
 	//activate resize function after function executes
-	setTimeout(resizediv, 50);
+	setTimeout(resizediv, 100);
 });
 
 //resize div to match image (helps position of text)
